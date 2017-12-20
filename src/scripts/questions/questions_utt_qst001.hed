@@ -1,0 +1,23 @@
+// Copyright (C) 2017 truongdo <truongdo@vais.vn>
+// Distributed under the modified-BSD license
+
+QS "Num-Phone-Sentence_0" {*/J:0+*}
+QS "Num-Phone-Sentence_1" {*/J:1+*}
+QS "Num-Phone-Sentence_2" {*/J:2+*}
+QS "Num-Phone-Sentence_3" {*/J:3+*}
+QS "Num-Phone-Sentence_4" {*/J:4+*}
+QS "Num-Phone-Sentence>4" {*/J:5+*,*/J:6+*,*/J:7+*,*/J:8+*,*/J:9+*,*/J:1?+*,*/J:2?+*,*/J:3?+*,*/J:4?+*,*/J:5?+*,*/J:6?+*,*/J:7?+*,*/J:8?+*,*/J:9?+*,*/J:10?+*}
+
+QS "Num-Word-Sentence_0" {*+0-*}
+QS "Num-Word-Sentence_1" {*+1-*}
+QS "Num-Word-Sentence_2" {*+2-*}
+QS "Num-Word-Sentence_3" {*+3-*}
+QS "Num-Word-Sentence_4" {*+4-*}
+QS "Num-Word-Sentence>4" {*+5-*,*+6-*,*+7-*,*+8-*,*+9-*,*+1?-*,*+2?-*,*+3?-*,*+4?-*}
+
+QS "Num-Phrase-Sentence_0" {*-0}
+QS "Num-Phrase-Sentence_1" {*-1}
+QS "Num-Phrase-Sentence_2" {*-2}
+QS "Num-Phrase-Sentence_3" {*-3}
+QS "Num-Phrase-Sentence_4" {*-4}
+QS "Num-Phrase-Sentence>4" {*-5,*-6,*-7,*-8,*-9,*-1?,*-2?,*-3?,*-4?}
