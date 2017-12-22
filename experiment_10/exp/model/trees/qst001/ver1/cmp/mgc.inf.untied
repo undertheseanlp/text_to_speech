@@ -1,7 +1,7 @@
 QS R-Num-Word-Phrase_3 { "*_3/J:*" }
 QS C-Pos-Phrase-Sen_Bw=3 { "*=3/I:*" }
 QS C-Pos-Phrase-Sen_Bw=2 { "*=2/I:*" }
-QS L-Num-Word-Phrase=0 { "*-0/H:*" }
+QS C-Pos-Phrase-Sen_Fw=0 { "*@0=*" }
 QS C-Word-GPOS==R { "*/E:R+*" }
 QS C-Word-GPOS==M { "*/E:M+*" }
 QS C-Word-GPOS==A { "*/E:A+*" }
@@ -104,7 +104,7 @@ QS LL_Posterior_vowel { "o^*","oo^*","u^*" }
   -2 C_ea                                               -3          "mgc_s4_3" 
   -3 C_k                                                -4          "mgc_s4_4" 
   -4 C_t                                                -5          "mgc_s4_5" 
-  -5 L-Num-Word-Phrase=0                                -6          "mgc_s4_6" 
+  -5 C-Pos-Phrase-Sen_Fw=0                              -6          "mgc_s4_6" 
   -6 LL_tc                                              -7        -12    
   -7 C_aw                                               -8          "mgc_s4_7" 
   -8 C_Voiced_consonant                                 -9        -10    

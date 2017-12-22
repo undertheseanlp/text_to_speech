@@ -193,7 +193,7 @@ $datdir = 'exp/data';
 
 # Parallel training
 $parallel = 1;
-$nj = 4;
+$nj = 8;
 $split = "$srcdir/split.py";
 eval {require Parallel::ForkManager};
 if($@) { $parallel = 0; print "Module Parallel::ForkManager is not installed\n using only single cpu for training\n";}

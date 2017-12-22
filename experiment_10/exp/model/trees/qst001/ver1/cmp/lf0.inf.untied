@@ -16,6 +16,7 @@ QS C-Num-Phone-Phrase=3 { "*/H:3=*" }
 QS C-Num-Phone-Phrase=2 { "*/H:2=*" }
 QS L-Num-Word-Phrase=3 { "*-3/H:*" }
 QS L-Num-Word-Phrase=2 { "*-2/H:*" }
+QS L-Num-Word-Phrase=0 { "*-0/H:*" }
 QS L-Num-Phone-Phrase>4 { "*/G:6?-*","*/G:5?-*","*/G:4?-*","*/G:3?-*","*/G:2?-*","*/G:1?-*","*/G:9-*","*/G:8-*","*/G:7-*","*/G:6-*","*/G:5-*" }
 QS L-Num-Phone-Phrase=0 { "*/G:0-*" }
 QS R-Word-GPOS==N { "*/F:N-*" }
@@ -251,7 +252,7 @@ QS LL_Continuant { "l^*","gh^*","g^*","gi^*","r^*","d^*","v^*","h^*","kh^*","x^*
 {*}[4].stream[2,3,4]
 {
    0 C_Silence                                          -1          "lf0_s4_1" 
-  -1 L-Num-Phone-Phrase=0                               -2          "lf0_s4_2" 
+  -1 L-Num-Word-Phrase=0                                -2          "lf0_s4_2" 
   -2 R_uo                                               -3        -20    
   -3 C_ea                                               -4        -29    
   -4 C-Word-GPOS==A                                     -5        -15    
