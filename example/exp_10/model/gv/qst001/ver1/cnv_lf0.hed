@@ -1,0 +1,11 @@
+
+TR 2
+
+// load trees for lf0
+LT "exp/model/gv/qst001/ver1/lf0.inf"
+
+// convert loaded trees for hts_engine format
+CT "exp/model/gv/qst001/ver1"
+
+// convert mmf for hts_engine format
+CM "exp/model/gv/qst001/ver1"

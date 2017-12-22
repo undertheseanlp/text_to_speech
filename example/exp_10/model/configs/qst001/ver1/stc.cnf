@@ -1,0 +1,9 @@
+MAXSEMITIEDITER = 20
+SEMITIEDMACRO   = "cmp"
+SAVEFULLC = T
+BASECLASS = "exp/model/models/qst001/ver1/cmp/stc.base"
+TRANSKIND = SEMIT
+USEBIAS   = F
+ADAPTKIND = BASE
+BLOCKSIZE = "IntVec 3 25 25 25 IntVec 1 1 IntVec 1 1 IntVec 1 1 "
+BANDWIDTH = "IntVec 3    IntVec 1  IntVec 1  IntVec 1  "

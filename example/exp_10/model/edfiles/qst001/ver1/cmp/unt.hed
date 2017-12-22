@@ -1,0 +1,11 @@
+// untie parameter sharing structure
+UT {*.state[2].stream[1-1]}
+UT {*.state[3].stream[1-1]}
+UT {*.state[4].stream[1-1]}
+UT {*.state[5].stream[1-1]}
+UT {*.state[6].stream[1-1]}
+UT {*.state[2].stream[2-4]}
+UT {*.state[3].stream[2-4]}
+UT {*.state[4].stream[2-4]}
+UT {*.state[5].stream[2-4]}
+UT {*.state[6].stream[2-4]}

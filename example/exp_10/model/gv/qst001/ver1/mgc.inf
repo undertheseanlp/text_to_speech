@@ -1,0 +1,7 @@
+QS Num-Phrase-Sentence>4 { "*-4?","*-3?","*-2?","*-1?","*-9","*-8","*-7","*-6","*-5" }
+
+{*}[2].stream[1]
+{
+   0 Num-Phrase-Sentence>4                               "gv_mgc_2"       "gv_mgc_1" 
+}
+
