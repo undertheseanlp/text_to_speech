@@ -3,7 +3,7 @@ from os.path import join, dirname
 import shutil
 
 # === GLOBAL VARIABLE ===
-SAMPLE = 10
+SAMPLE = 20
 current_folder = dirname(__file__)
 raw_folder = join(current_folder, "raw")
 corpus_folder = join(current_folder, "corpus_{}".format(SAMPLE))

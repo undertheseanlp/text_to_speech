@@ -1,0 +1,11 @@
+
+TR 2
+
+// load trees for mgc
+LT "exp/model/trees/qst001/ver1/cmp/mgc.inf.untied"
+
+// convert loaded trees for hts_engine format
+CT "exp/model/trees/qst001/ver1/cmp"
+
+// convert mmf for hts_engine format
+CM "exp/model/models/qst001/ver1/cmp"
