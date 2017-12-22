@@ -1,0 +1,11 @@
+
+TR 2
+
+// load trees for dur
+LT "exp_10/model/trees/qst001/ver1/dur/dur.inf.untied"
+
+// convert loaded trees for hts_engine format
+CT "exp_10/model/trees/qst001/ver1/dur"
+
+// convert mmf for hts_engine format
+CM "exp_10/model/models/qst001/ver1/dur"

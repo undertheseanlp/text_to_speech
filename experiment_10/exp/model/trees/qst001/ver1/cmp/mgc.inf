@@ -1,0 +1,157 @@
+QS C-Pos-Phrase-Sen_Bw=3 { "*=3/I:*" }
+QS C-Pos-Phrase-Sen_Fw=0 { "*@0=*" }
+QS C-Num-Phone-Phrase>4 { "*/H:6?=*","*/H:5?=*","*/H:4?=*","*/H:3?=*","*/H:2?=*","*/H:1?=*","*/H:9=*","*/H:8=*","*/H:7=*","*/H:6=*","*/H:5=*" }
+QS L-Num-Word-Phrase=0 { "*-0/H:*" }
+QS C-Num-Phone-Word==1 { "*+1/F:*" }
+QS C-Word-GPOS==M { "*/E:M+*" }
+QS C-Word-GPOS==A { "*/E:A+*" }
+QS C_Phonology_Pos_Phrase_Bw==6 { "*-6/C:*" }
+QS C_Phone_Pos_Word_Bw==2 { "*_2/A:*" }
+QS C_Phone_Pos_Word_Bw==0 { "*_0/A:*" }
+QS C_Phone_Pos_Word_Fw==1 { "*@1_*" }
+QS RR_iz { "*=iz@*" }
+QS RR_i { "*=i@*" }
+QS RR_Unvoiced_fricative { "*=h@*","*=kh@*","*=s@*","*=ph@*" }
+QS RR_Vowel { "*=wa@*","*=uw@*","*=uo@*","*=u@*","*=ow@*","*=oo@*","*=oa@*","*=o@*","*=ie@*","*=i@*","*=ee@*","*=ea@*","*=e@*","*=aw@*","*=aa@*","*=a@*" }
+QS R_Affricate { "*+v=*","*+tr=*" }
+QS C_wa { "*-wa+*" }
+QS C_w { "*-w+*" }
+QS C_v { "*-v+*" }
+QS C_uw { "*-uw+*" }
+QS C_u { "*-u+*" }
+QS C_t { "*-t+*" }
+QS C_s { "*-s+*" }
+QS C_o { "*-o+*" }
+QS C_nz { "*-nz+*" }
+QS C_nh { "*-nh+*" }
+QS C_ngz { "*-ngz+*" }
+QS C_m { "*-m+*" }
+QS C_l { "*-l+*" }
+QS C_kc { "*-kc+*" }
+QS C_k { "*-k+*" }
+QS C_iz { "*-iz+*" }
+QS C_ie { "*-ie+*" }
+QS C_i { "*-i+*" }
+QS C_h { "*-h+*" }
+QS C_g { "*-g+*" }
+QS C_ea { "*-ea+*" }
+QS C_aw { "*-aw+*" }
+QS C_Oval_velar { "*-ngz+*","*-ng+*","*-kh+*" }
+QS C_Velar { "*-ngz+*","*-kc+*","*-ng+*","*-kh+*","*-g+*","*-k+*" }
+QS C_Palatal { "*-th+*","*-dd+*","*-d+*","*-c+*","*-tr+*" }
+QS C_Oral_bilabial { "*-ph+*","*-p+*" }
+QS C_Alveolar_fricative { "*-d+*","*-s+*" }
+QS C_Unvoiced_stop { "*-kc+*","*-tc+*","*-pc+*","*-k+*","*-t+*","*-p+*" }
+QS C_Voiced_oral_consonant { "*-l+*","*-g+*","*-d+*","*-b+*" }
+QS C_Posterior_vowel { "*-o+*","*-oo+*","*-u+*" }
+QS C_Anterior_vowel { "*-e+*","*-ee+*","*-i+*" }
+QS C_Voiced { "*-v+*","*-nz+*","*-nh+*","*-ngz+*","*-ng+*","*-n+*","*-mz+*","*-m+*","*-l+*","*-g+*","*-dd+*","*-d+*","*-b+*","*-wa+*","*-w+*","*-u+*","*-uz+*","*-uw+*","*-uo+*","*-ow+*","*-oo+*","*-oa+*","*-o+*","*-iz+*","*-ie+*","*-i+*","*-ee+*","*-ea+*","*-e+*","*-aw+*","*-aa+*","*-a+*" }
+QS C_Unvoiced { "*-tr+*","*-th+*","*-tc+*","*-t+*","*-s+*","*-ph+*","*-pc+*","*-p+*","*-kh+*","*-kc+*","*-k+*","*-h+*" }
+QS C_Silence { "*-pau+*" }
+QS L_Unvoiced_stop { "*^kc-*","*^tc-*","*^pc-*","*^k-*","*^t-*","*^p-*" }
+QS L_Stop { "*^nh-*","*^ng-*","*^n-*","*^m-*","*^dd-*","*^b-*","*^ch-*","*^th-*","*^k-*","*^tr-*","*^t-*","*^p-*","*^kc-*","*^tc-*","*^pc-*" }
+QS L_Anterior_vowel { "*^e-*","*^ee-*","*^i-*" }
+QS LL_b { "b^*" }
+QS LL_Diphthong { "wa^*","oa^*","uo^*","ie^*" }
+QS LL_Continuant { "l^*","gh^*","g^*","gi^*","r^*","d^*","v^*","h^*","kh^*","x^*","s^*","ph^*" }
+QS LL_Voiced { "v^*","nz^*","nh^*","ngz^*","ng^*","n^*","mz^*","m^*","l^*","g^*","dd^*","d^*","b^*","wa^*","w^*","u^*","uz^*","uw^*","uo^*","ow^*","oo^*","oa^*","o^*","iz^*","ie^*","i^*","ee^*","ea^*","e^*","aw^*","aa^*","a^*" }
+
+{*}[2].stream[1]
+{
+   0 C-Pos-Phrase-Sen_Fw=0                              -1         -6    
+  -1 C_w                                                -2          "mgc_s2_1" 
+  -2 C_Unvoiced_stop                                    -3        -12    
+  -3 C_s                                                -4          "mgc_s2_2" 
+  -4 C_l                                                -5          "mgc_s2_3" 
+  -5 RR_i                                               -7        -11    
+  -6 C_Silence                                           "mgc_s2_5"       "mgc_s2_4" 
+  -7 C_u                                                -8          "mgc_s2_6" 
+  -8 C_Oral_bilabial                                    -9          "mgc_s2_7" 
+  -9 C_o                                               -10          "mgc_s2_8" 
+ -10 L_Stop                                            -13          "mgc_s2_9" 
+ -11 C-Num-Phone-Word==1                                "mgc_s2_11"      "mgc_s2_10" 
+ -12 L_Anterior_vowel                                   "mgc_s2_13"      "mgc_s2_12" 
+ -13 C_Velar                                           -14        -15    
+ -14 RR_Vowel                                          -16         "mgc_s2_14" 
+ -15 C_Phone_Pos_Word_Bw==2                             "mgc_s2_16"      "mgc_s2_15" 
+ -16 C_ea                                              -17         "mgc_s2_17" 
+ -17 C_Alveolar_fricative                              -18         "mgc_s2_18" 
+ -18 C-Pos-Phrase-Sen_Bw=3                              "mgc_s2_20"      "mgc_s2_19" 
+}
+
+{*}[3].stream[1]
+{
+   0 C_Silence                                          -1          "mgc_s3_1" 
+  -1 C_Unvoiced                                         -2         -3    
+  -2 C_g                                                -4          "mgc_s3_2" 
+  -3 C_h                                                -7          "mgc_s3_3" 
+  -4 C_ea                                               -5          "mgc_s3_4" 
+  -5 C_ie                                               -6          "mgc_s3_5" 
+  -6 C_i                                                -8          "mgc_s3_6" 
+  -7 C_Unvoiced_stop                                   -13          "mgc_s3_7" 
+  -8 C_ngz                                              -9          "mgc_s3_8" 
+  -9 C_uw                                              -10          "mgc_s3_9" 
+ -10 C_nh                                              -11         "mgc_s3_10" 
+ -11 LL_Diphthong                                      -12         "mgc_s3_11" 
+ -12 C-Word-GPOS==A                                    -14        -16    
+ -13 C_s                                                "mgc_s3_13"      "mgc_s3_12" 
+ -14 C_o                                               -15         "mgc_s3_14" 
+ -15 C_iz                                              -17         "mgc_s3_15" 
+ -16 C-Num-Phone-Phrase>4                               "mgc_s3_17"      "mgc_s3_16" 
+ -17 C_Voiced_oral_consonant                            "mgc_s3_18"     -18    
+ -18 C-Word-GPOS==M                                     "mgc_s3_20"      "mgc_s3_19" 
+}
+
+{*}[4].stream[1]
+{
+   0 C_Silence                                          -1          "mgc_s4_1" 
+  -1 C_w                                                -2          "mgc_s4_2" 
+  -2 C_k                                                -3          "mgc_s4_3" 
+  -3 C_Voiced                                           -5         -4    
+  -4 C_ea                                               -7          "mgc_s4_4" 
+  -5 C_t                                                -6          "mgc_s4_5" 
+  -6 L-Num-Word-Phrase=0                                 "mgc_s4_7"       "mgc_s4_6" 
+  -7 C_wa                                               -8          "mgc_s4_8" 
+  -8 C_aw                                               -9          "mgc_s4_9" 
+  -9 C_Phone_Pos_Word_Fw==1                            -10        -11    
+ -10 C_nz                                              -13         "mgc_s4_10" 
+ -11 LL_Voiced                                         -12         "mgc_s4_11" 
+ -12 RR_Unvoiced_fricative                              "mgc_s4_13"      "mgc_s4_12" 
+ -13 C_Oval_velar                                       "mgc_s4_15"      "mgc_s4_14" 
+}
+
+{*}[5].stream[1]
+{
+   0 C_Silence                                          -1          "mgc_s5_1" 
+  -1 C_w                                                -2          "mgc_s5_2" 
+  -2 C_Anterior_vowel                                   -3        -11    
+  -3 C_t                                                -4          "mgc_s5_3" 
+  -4 C_m                                                -5          "mgc_s5_4" 
+  -5 C_v                                                -6          "mgc_s5_5" 
+  -6 C_g                                                -7        -14    
+  -7 C_wa                                               -8          "mgc_s5_6" 
+  -8 C_Palatal                                          -9          "mgc_s5_7" 
+  -9 C_Phone_Pos_Word_Bw==0                            -10        -16    
+ -10 C_s                                               -12          "mgc_s5_8" 
+ -11 LL_Continuant                                      "mgc_s5_10"       "mgc_s5_9" 
+ -12 C_aw                                              -13         "mgc_s5_11" 
+ -13 C_Phonology_Pos_Phrase_Bw==6                      -15         "mgc_s5_12" 
+ -14 RR_iz                                              "mgc_s5_14"      "mgc_s5_13" 
+ -15 C_Posterior_vowel                                  "mgc_s5_16"      "mgc_s5_15" 
+ -16 C_ngz                                              "mgc_s5_18"      "mgc_s5_17" 
+}
+
+{*}[6].stream[1]
+{
+   0 C_Silence                                          -1          "mgc_s6_1" 
+  -1 C_w                                                -2          "mgc_s6_2" 
+  -2 C_uw                                               -3          "mgc_s6_3" 
+  -3 L_Unvoiced_stop                                    -4         -5    
+  -4 C_kc                                               -6          "mgc_s6_4" 
+  -5 R_Affricate                                         "mgc_s6_6"       "mgc_s6_5" 
+  -6 C_Unvoiced                                         -8         -7    
+  -7 LL_b                                               -9          "mgc_s6_7" 
+  -8 C_ngz                                               "mgc_s6_9"       "mgc_s6_8" 
+  -9 C_Phonology_Pos_Phrase_Bw==6                       "mgc_s6_11"      "mgc_s6_10" 
+}
+

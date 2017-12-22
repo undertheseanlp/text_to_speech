@@ -1,0 +1,10 @@
+hts_engine_API-1.10/Makefile
+hts_engine_API-1.10/bin/.deps/
+hts_engine_API-1.10/bin/Makefile
+hts_engine_API-1.10/bin/hts_engine
+hts_engine_API-1.10/config.log
+hts_engine_API-1.10/config.status
+hts_engine_API-1.10/install/
+hts_engine_API-1.10/lib/.deps/
+hts_engine_API-1.10/lib/Makefile
+hts_engine_API-1.10/lib/libHTSEngine.a
