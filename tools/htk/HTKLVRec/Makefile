@@ -17,7 +17,7 @@ HTKLIB  = 	$(inc)/HTKLib.a
 srcdir = .
 top_srcdir = ..
 
-prefix = /home/truong-d/workspace/vais/hts_sample/tools/htk/install
+prefix = /home/rain/PycharmProjects/vaisvn-hts_for_vietnamese/tools/htk/install
 exec_prefix = ${prefix}
 bindir = ${exec_prefix}/bin
 sbindir = ${exec_prefix}/sbin
@@ -32,7 +32,7 @@ mandir = ${prefix}/share/man
 includedir = ${prefix}/include
 oldincludedir = /usr/include
 
-CC      = 	gcc-4.7
+CC      = 	gcc
 CFLAGS  := 	-DNO_LAT_LM -Wall -Wno-switch -DARCH=linux -I$(inc)
 LDFLAGS = 	 -lm
 INSTALL = 	/usr/bin/install -c

@@ -14,7 +14,7 @@ mkdir -p exp/data
 
 if [[ $stage -le 0 ]]; then
     echo "=== Make Feature ==="
-    ./steps/make_feat.sh data_small exp/data || exit 1
+    ./steps/make_feat.sh data_10 exp/data || exit 1
 
     # Uncomment the line below to resynthesize audios from extracted speech parameters
     #../src/scripts/data/sptk_wav.sh exp/data exp/resyn || exit 1
@@ -22,12 +22,12 @@ fi
 
 if [[ $stage -le 1 ]]; then
     echo "=== Make Lab ==="
-    ./steps/make_lab.sh data_small/txt exp/data || exit 1
+    ./steps/make_lab.sh data_10/txt exp/data || exit 1
     ./steps/make_lab.sh data/txt_gen exp/data_gen || exit 1
 fi
 
 if [[ $stage -le 2 ]]; then
-    perl ../src/scripts/Training.pl $here/Config_train.pm || exit 1
+    perl ../src/scripts/Training.pl $here/Config_10.pm || exit 1
 fi
 
 if [[ $stage -le 3 ]]; then
