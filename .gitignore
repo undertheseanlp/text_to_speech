@@ -482,3 +482,9 @@ tools/htk/config.status
 .idea
 
 tools
+
+experiment_50
+experiment_100
+experiment_200
+experiment_500
+experiment_1000
