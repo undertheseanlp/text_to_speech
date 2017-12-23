@@ -1,0 +1,35 @@
+
+----------------------------------------------------------------------
+                          AILAB VIVOS Corpus
+    Vietnamese - Voices of Southern Corpus for Speech Recognition 
+
+                           (Version 1.00) 
+                        RELEASE December 2016
+
+             Artifical Intelligence Laboratory - AILAB
+           Vietnam National University - Ho Chi Minh City
+                      University of Science
+
+                        Copyright (c) 2016 
+
+                        ailab@hcmus.edu.vn
+
+----------------------------------------------------------------------
+
+OVERVIEW
+
+VIVOS corpus is a free Vietnamese speech corpus consisting of 15 hours of recording speech. The corpus is prepared for Automatic Speech Recognition (ASR) task and explicitly divided into training and testing set.
+
+The corpus was prepared by AILAB, a computer science lab of VNUHCM - University of Science, with Prof. Vu Hai Quan is the head of.
+
+Speech was recorded in a quite enviroment with high quality microphones, speakers were asked to read a pre-prepared text line by line.
+
+
+COPYING
+
+This corpus is licensed under Creative Commons Attribution NonCommercial ShareAlike 4.0 International License (CC BY-NC-SA 4.0)
+
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
+
